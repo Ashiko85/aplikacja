@@ -5,9 +5,9 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import {BrowserRouter, Route} from 'react-router-dom';
 
-import Home from './Home.js';
-import About from './About.js';
-import Contact from './Contact.js'
+import Home from './routers/Home.js';
+import About from './routers/About.js';
+import Contact from './routers/Contact.js'
 
 ReactDOM.render(
 <BrowserRouter>
